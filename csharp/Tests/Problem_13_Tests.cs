@@ -12,7 +12,7 @@ namespace Tests
         [InlineData(27, "XXVII")]
         [InlineData(58, "LVIII")]
         [InlineData(1994, "MCMXCIV")]
-        public void Test1(int expected, string input)
+        public void Test(int expected, string input)
         {
             Assert.Equal(expected, new Solution().RomanToInt(input));
         }
