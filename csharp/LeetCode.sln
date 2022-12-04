@@ -5,9 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{B645B5F3-CA00-41DB-A045-37A59AC953D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem_13_Roman_To_Integer", "13_Roman_To_Integer\Problem_13_Roman_To_Integer.csproj", "{56FA2488-E6E7-483D-87B4-BEB9A9152B13}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem_234_Palindrome_Linked_List", "234_Palindrome_Linked_List\Problem_234_Palindrome_Linked_List.csproj", "{2FBCB44F-DF14-49DB-926E-06A6B1E8B163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problems", "Problems\Problems.csproj", "{56FA2488-E6E7-483D-87B4-BEB9A9152B13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{56FA2488-E6E7-483D-87B4-BEB9A9152B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56FA2488-E6E7-483D-87B4-BEB9A9152B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56FA2488-E6E7-483D-87B4-BEB9A9152B13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FBCB44F-DF14-49DB-926E-06A6B1E8B163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FBCB44F-DF14-49DB-926E-06A6B1E8B163}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FBCB44F-DF14-49DB-926E-06A6B1E8B163}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FBCB44F-DF14-49DB-926E-06A6B1E8B163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-using Problem_13_Roman_To_Integer;
+using Problems;
 
 namespace Tests
 {
@@ -14,7 +14,7 @@ namespace Tests
         [InlineData(1994, "MCMXCIV")]
         public void Test(int expected, string input)
         {
-            Assert.Equal(expected, new Solution().RomanToInt(input));
+            Assert.Equal(expected, new Solution13().RomanToInt(input));
         }
     }
 }

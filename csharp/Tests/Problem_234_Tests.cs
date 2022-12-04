@@ -1,4 +1,4 @@
-using Problem_234_Palindrome_Linked_List;
+using Problems;
 
 namespace Tests
 {
@@ -21,7 +21,7 @@ namespace Tests
         [MemberData(nameof(TestData))]
         public void Test(bool expected, ListNode input)
         {
-            Assert.Equal(expected, new Solution().IsPalindrome(input));
+            Assert.Equal(expected, new Solution234().IsPalindrome(input));
         }
     }
 }

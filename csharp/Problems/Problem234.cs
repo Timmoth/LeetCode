@@ -1,8 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Problem_234_Palindrome_Linked_List;
+namespace Problems;
 
-public class Solution
+public class Solution234
 {
     public bool IsPalindrome(ListNode h)
     {

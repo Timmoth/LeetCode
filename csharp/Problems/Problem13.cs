@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Problem_13_Roman_To_Integer;
-public class Solution
+namespace Problems;
+public class Solution13
 {
     public int RomanToInt(string s)
     {
