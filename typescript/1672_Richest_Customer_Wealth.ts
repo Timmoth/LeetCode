@@ -1,4 +1,4 @@
-function maximumWealth(accounts: number[][]): number {
+export function maximumWealth(accounts: number[][]): number {
     let max = 0
     for (let i = 0; i < accounts.length; i++) {
         let sum = accounts[i].reduce((x, y) => x + y)
@@ -8,5 +8,3 @@ function maximumWealth(accounts: number[][]): number {
     }
     return max
 };
-
-module.exports = maximumWealth;

@@ -1,4 +1,5 @@
-const numberOfSteps = require('../1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero');
+import {expect, test} from '@jest/globals';
+import {numberOfSteps} from '../1342_Number_Of_Steps_To_Reduce_A_Number_To_Zero';
 
 test('Example 1', () => {
   expect(numberOfSteps(14)).toBe(6);

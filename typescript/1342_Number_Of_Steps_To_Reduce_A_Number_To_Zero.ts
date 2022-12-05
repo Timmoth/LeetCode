@@ -1,4 +1,4 @@
-function numberOfSteps(num: number): number {
+export function numberOfSteps(num: number): number {
     let turns = 0;
     while(num != 0){
         if(num % 2 != 0){
@@ -14,5 +14,3 @@ function numberOfSteps(num: number): number {
     }
     return turns;
 };
-
-module.exports = numberOfSteps;

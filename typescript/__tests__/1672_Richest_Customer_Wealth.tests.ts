@@ -1,4 +1,5 @@
-const maximumWealth = require('../1672_Richest_Customer_Wealth');
+import {expect, test} from '@jest/globals';
+import {maximumWealth} from '../1672_Richest_Customer_Wealth';
 
 test('Example 1', () => {
   expect(maximumWealth(
