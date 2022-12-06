@@ -1,6 +1,6 @@
 export function largestPerimeter(nums: number[]): number {
     if(nums.length < 3){
-        return 0;
+        return 0
     }
 
     nums = nums.sort((a,b) => b - a)
@@ -10,5 +10,5 @@ export function largestPerimeter(nums: number[]): number {
         }
     }
 
-    return 0;
+    return 0
 };

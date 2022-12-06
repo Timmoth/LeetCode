@@ -1,22 +1,22 @@
 export function fizzBuzz(n: number): string[] {
-    let output: string[] = [];
+    let output: string[] = []
 
     for(let i = 1; i <= n; i++){
-        var val = "";
+        var val = ''
         if(i % 3 == 0){
-            val += "Fizz";
+            val += 'Fizz'
         }
 
         if(i % 5 == 0){
-            val += "Buzz";
+            val += 'Buzz'
         }
 
-        if(val == "")
+        if(val == '')
         {
-            val = i.toString();
+            val = i.toString()
         }
-        output[i-1] = val;
+        output[i-1] = val
     }
 
-    return output;
+    return output
 };

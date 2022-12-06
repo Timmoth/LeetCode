@@ -3,7 +3,7 @@ export function maximumWealth(accounts: number[][]): number {
     for (let i = 0; i < accounts.length; i++) {
         let sum = accounts[i].reduce((x, y) => x + y)
         if (sum > max) {
-            max = sum;
+            max = sum
         }
     }
     return max
