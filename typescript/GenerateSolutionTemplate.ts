@@ -8,7 +8,7 @@ let rl = readline.createInterface({
 
 rl.question('Enter problem name: ', (answer) => {
     
-    let fileName = answer.replace(' ', '_').replace('.', '')
+    let fileName = answer.split(' ').join('_').replace('.', '')
 
     fs.writeFile(fileName + '.ts', '',  function(err) {
         if (err) {
