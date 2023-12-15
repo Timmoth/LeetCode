@@ -1,5 +1,21 @@
 # LeetCode
 Solutions to Leetcode problems
 
-### Create a new solution + test file template
-```npx ts-node .\GenerateSolutionTemplate.ts```
+## Typescript
+
+Create a new solution + test file
+```
+npx ts-node .\GenerateSolutionTemplate.ts
+```
+
+Run tests for a single solution
+```
+yarn jest 0001.tests.ts
+```
+
+Run all tests
+```
+yarn jest
+```
+
+## Dotnet
